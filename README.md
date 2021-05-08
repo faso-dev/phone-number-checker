@@ -8,13 +8,14 @@ composer require faso-dev/phone-number-checker v0.1-beta
 
 # Use cases
 ```php
-<?php
 /*
  * Copyright (c) 2021. | All Rights Reserved
  * @Author <FASO-DEV> faso-dev@protonmail.ch
  */
 
 
+use FSDV\BF\Utils\Extractor\PhoneNumberExtractor;
+use FSDV\BF\Utils\Extractor\PhoneNumberPrefixExtractor;
 use FSDV\BF\Validator\PhoneNumber;
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -23,7 +24,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 PhoneNumber::validate('+22651000000'); //output: true
 PhoneNumber::validate('0022651000000'); //output: true
 PhoneNumber::validate('0022551000000'); //output: false
-PhoneNumber::validate('51000000'); //output: false
+PhoneNumber::validate('51000000'); //output: true
 
 //Vérifie l'opérateur mobile d'un numéro au format Burkinabé
 //=======MOOV========
@@ -48,5 +49,15 @@ PhoneNumber::getOperator('+22658000000'); //output: TELECEL BURKINA
 PhoneNumber::getPhonePrefixes(PhoneNumber::MOOV_BURKINA); //output: ['01','02','51','52','53','60','61','62','63','70','71','72','73]
 PhoneNumber::getPhonePrefixes(PhoneNumber::ORANGE_BURKINA); //output: ['07','54','55','56','57','64','65','66','67','74','75','76','77']
 PhoneNumber::getPhonePrefixes(PhoneNumber::TELECEL_BURKINA); //output: ['58','59','68','69','78','79]
+
+//Extraire le prefixe d'un numéro au format Burkinabé
+PhoneNumberPrefixExtractor::extract('+22651000000'); //output: 51
+PhoneNumberPrefixExtractor::extract('+22674000000'); //output: 74
+PhoneNumberPrefixExtractor::extract('+22668000000'); //output: 68
+
+//Extraire le numéro sans l'indicatif du pays
+PhoneNumberExtractor::extract('+22651000000'); //output: 51000000
+PhoneNumberExtractor::extract('+22674000000'); //output: 74000000
+PhoneNumberExtractor::extract('+22668000000'); //output: 68000000
 
 ```
