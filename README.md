@@ -23,7 +23,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 PhoneNumber::validate('+22651000000'); //output: true
 PhoneNumber::validate('0022651000000'); //output: true
 PhoneNumber::validate('0022551000000'); //output: false
-PhoneNumber::validate('51000000'); //output: true
+PhoneNumber::validate('51000000'); //output: false
 
 //Vérifie l'opérateur mobile d'un numéro au format Burkinabé
 //=======MOOV========
