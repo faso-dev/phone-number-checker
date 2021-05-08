@@ -9,6 +9,7 @@
 namespace FSDV\BF\Utils\Extractor;
 
 use FSDV\BF\Validator\NumberValidator;
+use FSDV\BF\Validator\PhoneNumber;
 
 /**
  * Class PhoneNumberExtractor
@@ -22,7 +23,7 @@ class PhoneNumberExtractor implements PhoneNumberExtractorInterface
      */
     public static function extract(string $phoneNumber): ?string
     {
-        if (!NumberValidator::validate($phoneNumber)) return null;
+        if (!PhoneNumber::validate($phoneNumber)) return null;
         if (substr($phoneNumber, 0, 4) === '+226') {
             return explode('+226', $phoneNumber)[1] ?? null;
         } elseif (substr($phoneNumber, 0, 5) === '00226') {
