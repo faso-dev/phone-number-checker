@@ -1,5 +1,9 @@
 <?php
-
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ * @license MIT
+ */
 
 namespace FSDV\BF\Regex;
 
@@ -7,7 +11,7 @@ namespace FSDV\BF\Regex;
  * Contient la liste des constantes des expressions régulières
  * pour la validation des préfixes des oprérateurs télephonique du Burkina
  * Class NumberRegex
- * @package FSDV\Regex
+ * @package FSDV\BF\Regex
  */
 final class NumberRegex
 {

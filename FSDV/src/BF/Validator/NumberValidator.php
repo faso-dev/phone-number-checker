@@ -1,16 +1,14 @@
 <?php
-
-/**
- * @author faso-dev <faso-dev@protonmail.ch>
- * @copyright 2020 | All rights reserved
- * @license MIT
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
  */
 
 namespace FSDV\BF\Validator;
 
 /**
  * Class NumberValidator
- * @package FSDV\Orange\Number
+ * @package FSDV\BF\Validator
  */
 class NumberValidator implements NumberValidatorInterface
 {

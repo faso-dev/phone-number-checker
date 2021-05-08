@@ -1,12 +1,19 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ */
 
 
 namespace FSDV\BF\Validator;
 
 
-use FSDV\BF\Validator\NumberValidator;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class NumberValidatorTest
+ * @package FSDV\BF\Validator
+ */
 class NumberValidatorTest extends TestCase
 {
     public function testIfIsValidPhoneNumber()

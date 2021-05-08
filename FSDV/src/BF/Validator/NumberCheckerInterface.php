@@ -1,11 +1,16 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ * @license MIT
+ */
 
 
 namespace FSDV\BF\Validator;
 
 /**
  * Interface NumberCheckerInterface
- * @package FSDV\Validator
+ * @package FSDV\BF\Validator
  */
 interface NumberCheckerInterface
 {

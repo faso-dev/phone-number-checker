@@ -1,4 +1,8 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ */
 
 
 namespace FSDV\BF\Validator;

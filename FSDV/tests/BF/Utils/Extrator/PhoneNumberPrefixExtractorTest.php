@@ -1,4 +1,8 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ */
 
 
 namespace FSDV\BF\Utils\Extrator;
@@ -7,6 +11,10 @@ namespace FSDV\BF\Utils\Extrator;
 use FSDV\BF\Utils\Extractor\PhoneNumberPrefixExtractor;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class PhoneNumberPrefixExtractorTest
+ * @package FSDV\BF\Utils\Extrator
+ */
 class PhoneNumberPrefixExtractorTest extends TestCase
 {
     public function testSuccefullyExtractPhoneNumber()

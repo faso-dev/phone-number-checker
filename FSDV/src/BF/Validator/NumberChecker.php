@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ * @license MIT
+ */
 
 
 namespace FSDV\BF\Validator;
@@ -7,7 +12,7 @@ use FSDV\BF\Regex\NumberRegex;
 
 /**
  * Class NumberChecker
- * @package FSDV\Validator
+ * @package FSDV\BF\Validator
  */
 class NumberChecker implements NumberCheckerInterface
 {

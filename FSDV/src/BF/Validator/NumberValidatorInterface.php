@@ -1,8 +1,7 @@
 <?php
-
-/**
- * @author faso-dev <faso-dev@protonmail.ch>
- * @copyright 2020 | All rights reserved
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
  * @license MIT
  */
 
@@ -10,7 +9,7 @@ namespace FSDV\BF\Validator;
 
 /**
  * Interface NumberValidatorInterface
- * @package FSDV\Validator
+ * @package FSDV\BF\Validator
  */
 interface NumberValidatorInterface
 {

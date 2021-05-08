@@ -1,11 +1,16 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ * @license MIT
+ */
 
 
 namespace FSDV\BF\Utils\Extractor;
 
 /**
  * Interface PhoneNumberExtractorInterface
- * @package FSDV\Utils
+ * @package FSDV\BF\Utils\Extractor
  */
 interface PhoneNumberExtractorInterface
 {

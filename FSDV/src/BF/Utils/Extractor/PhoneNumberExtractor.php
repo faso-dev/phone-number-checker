@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (c) 2021. | All Rights Reserved
+ * @Author <FASO-DEV> faso-dev@protonmail.ch
+ * @license MIT
+ */
 
 
 namespace FSDV\BF\Utils\Extractor;
@@ -7,7 +12,7 @@ use FSDV\BF\Validator\NumberValidator;
 
 /**
  * Class PhoneNumberExtractor
- * @package FSDV\Utils
+ * @package FSDV\BF\Utils\Extractor
  */
 class PhoneNumberExtractor implements PhoneNumberExtractorInterface
 {
