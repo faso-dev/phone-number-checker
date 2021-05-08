@@ -35,8 +35,8 @@ NumberChecker::isOrange('+22656000000'); //output: true
 NumberChecker::isOrange('0022656000000'); //output: true
 NumberChecker::isOrange('0022678000000'); //output: false
 //=======TELECEL========
-NumberChecker::isOrange('+22658000000'); //output: true
-NumberChecker::isOrange('0022679000000'); //output: true
-NumberChecker::isOrange('0022677000000'); //output: false
+NumberChecker::isTelecel('+22658000000'); //output: true
+NumberChecker::isTelecel('0022679000000'); //output: true
+NumberChecker::isTelecel('0022677000000'); //output: false
 
 ```
