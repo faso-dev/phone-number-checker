@@ -47,7 +47,7 @@ PhoneNumber::getOperator('+22658000000'); //output: TELECEL BURKINA
 
 //Obtenir les préfixes d'un opérateur mobile
 PhoneNumber::getPhonePrefixes(PhoneNumber::MOOV_BURKINA); //output: ['01','02','51','52','53','60','61','62','63','70','71','72','73]
-PhoneNumber::getPhonePrefixes(PhoneNumber::ORANGE_BURKINA); //output: ['07','54','55','56','57','64','65','66','67','74','75','76','77']
+PhoneNumber::getPhonePrefixes(PhoneNumber::ORANGE_BURKINA); //output: ['06',07','54','55','56','57','64','65','66','67','74','75','76','77']
 PhoneNumber::getPhonePrefixes(PhoneNumber::TELECEL_BURKINA); //output: ['58','59','68','69','78','79]
 
 //Extraire le prefixe d'un numéro au format Burkinabé

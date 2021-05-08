@@ -15,7 +15,7 @@ final class NumberPrefix
     /**
      * @var string
      */
-    const ORANGE_NUMBER_PREFIXES = '07|54|55|56|57|64|65|66|67|74|75|76|77';
+    const ORANGE_NUMBER_PREFIXES = '06|07|54|55|56|57|64|65|66|67|74|75|76|77';
 
     /**
      * @var string
