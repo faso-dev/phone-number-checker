@@ -1,6 +1,6 @@
 {
-    "name": "faso-dev/validator",
-    "description": "Ce package a pour objectif d'aider dans la vérification de tout ce qui concerne pièces d'identité, numero de transaction, numero de télephone burkinabé,mot de passe",
+    "name": "faso-dev/phone-number-checker",
+    "description": "This package is used to validate the telephone numbers of the countries taken into account. It also makes it possible to verify that a number is indeed a number of an operator X",
     "type": "metapackage",
     "require": {
         "php": ">=7.4"
