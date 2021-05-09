@@ -18,7 +18,7 @@ final class NumberRegex
     /**
      * @var string
      */
-    const ORANGE_NUMBER_REGEX = '/^((00226|\+226{1})?(07|54|55|56|57|64|65|66|67|74|75|76|77)(\d{6}))$/';
+    const ORANGE_NUMBER_REGEX = '/^((00226|\+226{1})?(06|07|54|55|56|57|64|65|66|67|74|75|76|77)(\d{6}))$/';
 
     /**
      * @var string
