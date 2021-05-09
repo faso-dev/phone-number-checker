@@ -1,9 +1,8 @@
 {
     "name": "faso-dev/phone-number-checker",
     "description": "This package is used to validate the telephone numbers of the countries taken into account. It also makes it possible to verify that a number is indeed a number of an operator X",
-    "type": "metapackage",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.3"
     },
     "autoload": {
         "psr-4": {
